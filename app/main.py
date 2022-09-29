@@ -1,35 +1,31 @@
-from pprint import pprint
+import os
+import time
+from datetime import datetime
 
-import httplib2
-import apiclient
-from oauth2client.service_account import ServiceAccountCredentials
+from dotenv import load_dotenv
 
-
-# Файл, полученный в Google Developer Console
-CREDENTIALS_FILE = 'creds.json'
-# ID Google Sheets документа (можно взять из его URL)
-spreadsheet_id = '1GuhCZ86C8rDKig1A0zIS_qDP8BjnNYWfBwXMtyAjL8Q'
-
-# Авторизуемся и получаем service — экземпляр доступа к API
-credentials = ServiceAccountCredentials.from_json_keyfile_name(
-    CREDENTIALS_FILE,
-    ['https://www.googleapis.com/auth/spreadsheets',
-     'https://www.googleapis.com/auth/drive'])
-httpAuth = credentials.authorize(httplib2.Http())
-service = apiclient.discovery.build('sheets', 'v4', http = httpAuth)
+from get_currency import usd_rate
+from read_values import read_range
 
 
-# Пример чтения файла
-column_s = "A"
-column_e = "D"
-startIndex = 1
-range = column_s + str(startIndex) + ":" + column_e
-values = service.spreadsheets().values().get(
-    spreadsheetId=spreadsheet_id,
-    range=range,
-    majorDimension='ROWS',
-).execute()
-pprint(values)
-for row in values['values']:
-    print(row)
+load_dotenv('../infra/.env')
 
+
+
+RETRY_TIME = int(os.getenv('RETRY_TIME'))
+url_path = os.getenv('URL')
+url_path_today = url_path + str(datetime.now().strftime("%d/%m/%Y"))
+headers = os.getenv('HEADERS')
+
+def update_db():
+    """Прочитать новые файлы к обработке."""
+    while True:
+        currency = usd_rate(url_path_today, {'User-Agent':headers})
+        print(currency)
+        print(read_range())
+
+        time.sleep(RETRY_TIME)
+
+
+if __name__ == "__main__":
+    update_db()
