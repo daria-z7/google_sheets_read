@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "solid-depot-364006",
+  "private_key_id": "92cc02a1459a84124366359ad1b6dfdf5b17062a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC07p82Ok6HC06X\n+mFnegoKJGwsv6g0Zs8TlrtBkv07UrzFVFYp6Q7kmZKl7qO3dL4SLPHGqyG+Po4f\nmApTRCzmyrrEc44RVCwdrEyRKN/iHu9/rc0H5JEyUmTaU8TwxKQzfv7WCeeB/Ik3\nPmTEcRq3tDdAgrR/RhJQ3MwzSsPisBjX0bDkGszStORzOhupdyOH/kj+22Se2FqN\np3CAam1XkCQEbO8h9KkYbDwG//D1ziso+qKqmO0LTPiMkjPB3/HdyUohiOcqBaEv\nsUvlBQVasyyhazmTL/DZOAwQ+3GwH4DI393JUgR124W7kfUTom1Yh4IHeY9VzRai\nOZTwO12dAgMBAAECggEATJOgA+oKmWJiObWJayu+OwuuUwQs8zy+EOrfR0Iodmau\nqY/nxeYzXPJYnG0Tko5Q8c1e6Pg+GFBOg7WsTRCSNn4ALSxBKTloUIi/gUJ8+y2f\nrPjIybnl8BfqQnNo64Q2gOsTfVCE0MGq65w3NuMt7SlTpzSKo0FreBjzPhQ7MuIf\nxPCREb+uejguOzvDlSuD0cSkoNFQCQ4+eg91qF/j/ZYfdnxasuHgMCl6efpE6W/3\nwF51I1ImbFNMtzjaEwDtjovUy4kj2EQV2bH1lclyrNGpr0Ha+J8J2yPIOWtcIRLC\nND8boT0RBwjsVwFtR+9IcCYb0OPS4uq8T0DuDDniCwKBgQD7gHhOF25efzEWhklV\nunYtnoRLoivAzq6X/FC00cI4W8OgZ0kceRab7Q0Z+cj1tK964wZC174Bzr+EZxZt\n5wZiXRX6owXOzt+Rd8e3Q0tuO+NehTGTrI+6rfkY9/GnnQB216jHph7HBCM7hMol\nzBV/tXLI6GxrEKZbedYauF9CiwKBgQC4KwpYbWkA7TliO7j6iE/nerElO7zcwngA\nd2VFoqdfedM21WY6AhGVQsyCV5jCMRp4EC6pk+O/yOpiS+2IEMSTtimkU8kG+4v4\nnom567iiqyCmXVoZ33a3bL7cYedHvhnoy3y5Kq7xjy43Ah/ZydYkOr4KhRSz3ixf\nbVIU9OMtdwKBgQD1Zm587DoCNKNmMhOedblYXAMEdbGxiTotDMKHHOEg8tEYU4+w\nG6rm7E/LV8IxlWNgSeLTGAXLZ7vR6nClPjYphmCq1aUWHR9ipniWJjCU2BTMJrSw\nPkFkStry9QOzo+tPCrEiVcJUOIJUUgaZCOC1YwwkYz1e3rkkKuax3dL9bwKBgG+I\n0WkgSblf8aLGXI6NwyaDLYlJFmXz+E0AAfscOJUf6ISK1LBI1HE61TQS7NaeelNA\nKaJViFZ7zUbeiOogjYyPg8SbYWGzMd/N08cfNOB/FvTqEEkfBnyrhSNev3y5amOL\n6OsTKIPunKR/yt5Q2Dl0wecJFbKg2OqqAE3kyTidAoGALPzWNObEiiLwHaKymxhg\nDPm/FlotNlsG9LnEDvZp16TKJdif5rIGB0oO1Gfuz4q4VBbUWoZWXSm0BglCnsTc\nZItMIU/+GzpLToVBx0fGYyihdYIPx/EReBpwn/aZHqp9bThvE7D3NslfvHwRyzjx\n8eU1CSUfTH62dj3Vo2qnV8k=\n-----END PRIVATE KEY-----\n",
+  "client_email": "account@solid-depot-364006.iam.gserviceaccount.com",
+  "client_id": "105464635967123838898",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/account%40solid-depot-364006.iam.gserviceaccount.com"
+}
