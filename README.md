@@ -32,8 +32,8 @@ cd google_sheets_read
 
 ```
 CBR_URL=https://www.cbr.ru/scripts/XML_daily.asp?date_req=
-spreadsheet_id=1GuhCZ86C8rDKig1A0zIS_qDP8BjnNYWfBwXMtyAjL8Q
-CREDENTIALS_FILE =creds.json
+spreadsheet_id=1GuhCZ86C8rDKig1A0zIS_qDP8BjnNYWfBwXMtyAjL8Q # id листа google таблицы с данными
+CREDENTIALS_FILE=creds.json
 RETRY_TIME=360 # время ожидания перед следующей проверкой
 HEADERS=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'
 DATABASE_NAME=postgres
