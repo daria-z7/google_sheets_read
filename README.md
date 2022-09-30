@@ -43,6 +43,11 @@ BOT_TOKEN=5772558656:AAGuAK9YykrAkiT1Hi5bLJj5O6RVldAXOBg
 TELEGRAM_USER_ID= #ваш user_id в Telegram (узнать у https://t.me/userinfobot)
 BOT_NAME=@OverdueOrdersNotesBot
 ```
+Инициируйте переписку с ботом:
+
+```
+Найдите бота в Telegram - @OverdueOrdersNotesBot и отправьте /start
+```
 
 Перейдите в папку infra:
 
