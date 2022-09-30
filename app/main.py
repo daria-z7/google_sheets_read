@@ -9,6 +9,7 @@ from datetime import datetime
 
 from dotenv import load_dotenv
 import requests
+from telegram import Bot
 
 from get_currency import usd_rate
 from read_values import read_range
@@ -44,7 +45,7 @@ def update_db():
     """Основная логика работы скрипта."""
 
     if not check_url():
-        logging.critical(f'Ссылка на сайт ЦБ неверна -{url_path_today}.')
+        logging.critical(f'Ссылка на сайт ЦБ неверна - {url_path_today}.')
         return
 
     while True:
@@ -69,6 +70,9 @@ def update_db():
             logging.error(error)
 
         except Exception as error:
+            bot = Bot(token=bot_token)
+            bot.send_message(user_id, error)
+
             logging.error(error)
 
         finally:
