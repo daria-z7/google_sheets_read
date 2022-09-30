@@ -45,6 +45,12 @@ BOT_TOKEN=5772558656:AAGuAK9YykrAkiT1Hi5bLJj5O6RVldAXOBg
 TELEGRAM_USER_ID= #ваш user_id в Telegram (узнать у https://t.me/userinfobot)
 BOT_NAME=@OverdueOrdersNotesBot
 ```
+Гугл-таблица находится по ссылке:
+
+```
+https://docs.google.com/spreadsheets/d/1GuhCZ86C8rDKig1A0zIS_qDP8BjnNYWfBwXMtyAjL8Q/
+```
+
 Инициируйте переписку с ботом:
 
 ```
