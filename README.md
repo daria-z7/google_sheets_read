@@ -35,13 +35,13 @@ CBR_URL=https://www.cbr.ru/scripts/XML_daily.asp?date_req=
 spreadsheet_id=1GuhCZ86C8rDKig1A0zIS_qDP8BjnNYWfBwXMtyAjL8Q # id листа google таблицы с данными
 CREDENTIALS_FILE=creds.json
 RETRY_TIME=360 # время ожидания перед следующей проверкой
-HEADERS=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'
+HEADERS=Mozilla/5.0 .....
 DATABASE_NAME=postgres
 DB_USERNAME=postgres
 DB_PASSWORD=postgres123
 HOST=mypostgresdb # название сервиса (контейнера)
 PORT=5432
-BOT_TOKEN=5772558656:AAGuAK9YykrAkiT1Hi5bLJj5O6RVldAXOBg
+BOT_TOKEN=....
 TELEGRAM_USER_ID= #ваш user_id в Telegram (узнать у https://t.me/userinfobot)
 BOT_NAME=@OverdueOrdersNotesBot
 ```
